@@ -1,7 +1,7 @@
 var data = {
     enchants: {
         protection: {
-            levelMax: "4",
+            levelMax: "10",
             weight: "1",
             incompatible: ["blast_protection", "fire_protection", "projectile_protection"],
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
@@ -19,7 +19,7 @@ var data = {
             items: ["sword", "axe", "mace"]
         },
         blast_protection: {
-            levelMax: "4",
+            levelMax: "10",
             weight: "2",
             incompatible: ["fire_protection", "protection", "projectile_protection"],
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
@@ -37,13 +37,13 @@ var data = {
             items: ["boots"]
         },
         efficiency: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: [],
             items: ["pickaxe", "shovel", "axe", "hoe", "shears"]
         },
         feather_falling: {
-            levelMax: "4",
+            levelMax: "10",
             weight: "1",
             incompatible: [],
             items: ["boots"]
@@ -55,7 +55,7 @@ var data = {
             items: ["sword", "mace"]
         },
         fire_protection: {
-            levelMax: "4",
+            levelMax: "10",
             weight: "1",
             incompatible: ["blast_protection", "protection", "projectile_protection"],
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
@@ -67,7 +67,7 @@ var data = {
             items: ["bow"]
         },
         fortune: {
-            levelMax: "3",
+            levelMax: "10",
             weight: "2",
             incompatible: ["silk_touch"],
             items: ["pickaxe", "shovel", "axe", "hoe"]
@@ -97,7 +97,7 @@ var data = {
             items: ["sword"]
         },
         looting: {
-            levelMax: "3",
+            levelMax: "10",
             weight: "2",
             incompatible: [],
             items: ["sword"]
@@ -142,7 +142,7 @@ var data = {
             items: ["crossbow"]
         },
         power: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: [],
             items: ["bow"]
@@ -178,7 +178,7 @@ var data = {
             items: ["trident"]
         },
         sharpness: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: ["bane_of_arthropods", "smite"],
             items: ["sword", "axe"]
@@ -220,7 +220,7 @@ var data = {
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
         },
         unbreaking: {
-            levelMax: "3",
+            levelMax: "10",
             weight: "1",
             incompatible: [],
             items: ["helmet", "chestplate", "leggings", "boots", "pickaxe", "shovel", "axe", "sword", "hoe", "brush", "fishing_rod",
